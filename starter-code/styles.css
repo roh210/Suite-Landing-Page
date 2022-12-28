@@ -40,6 +40,18 @@ html{
 .company__profile__description__para,.main__description__testimonial{
   text-transform: uppercase;
 }
+.btn--landing,.main__container{
+  background-color: #172339;
+}
+footer,.main__landing__background,.nav__button{
+  background-color: #F3EDE7;
+}
+.testimonial__name__description,.main__description__para{
+  color: #F3EDE7;
+}
+.nav__button,.curved-line__img,.landing__description,.jeremy__img,.main__landing__background{
+  position: absolute;
+}
 /*NAV-BAR*/
 nav {
   height: 100px;
@@ -61,12 +73,10 @@ nav {
   width: 100%;
 }
 .nav__button {
-  position: absolute;
   border: 2px solid #172339;
   right: 5%;
   top: -25%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background-color: #f3ede7;
 }
 /*HEADER*/
 
@@ -106,14 +116,12 @@ transform: translateX(-100%);
   max-width: 500px;
 }
 .curved-line__img{
-position: absolute;
 left:45%;
 right:0;
 top:10%;
 }
 .landing__description {
   padding-top: 45px;
-  position: absolute;
 }
 .landing__title {
   padding-top:45px;
@@ -138,7 +146,6 @@ top:10%;
 }
 .btn--landing {
   color: #faf8f6;
-  background-color: #172339;
   border: none;
 }
 .landing__img__wrapper {
@@ -178,7 +185,6 @@ top:10%;
 }
 .main__container{
 margin-top: 150px;
-background-color: #172339;
 border-radius: 15px;
 width: 100%;
 max-width: 1200px;
@@ -199,7 +205,6 @@ justify-content: center;
  position: relative;
 }
 .jeremy__img{
-  position: absolute;
   top: -11%;
   z-index: 4;
   width: 100%;
@@ -235,7 +240,6 @@ justify-content: center;
   padding-bottom:32px;
 }
 .main__description__para{
-  color:#F3EDE7;
   font-weight: 400;
   line-height: 1.5;
   font-size: 14px;
@@ -247,21 +251,17 @@ justify-content: center;
 .testimonial__name__description{
   letter-spacing:2.5px ;
   font-size:12px;
-  color:#F3EDE7;
 }
 .main__landing__background{
-  position: absolute;
   z-index: -4;
   width: 100%;
   height: 150px;
   bottom: 0;
-background-color: #F3EDE7;
 }
 /*FOOTER*/
 footer{
   position: relative;
   z-index: -3;
-  background-color: #F3EDE7;
 height: 314px;
 }
 .footer__info{
@@ -294,6 +294,8 @@ height: 314px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.company__profile__wrapper,.main__wrapper{
   text-align: center;
 }
 .landing__description__wrapper{
@@ -314,7 +316,6 @@ height: 314px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 .main__curved-line__mask{
   height: 0;
